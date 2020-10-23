@@ -99,7 +99,7 @@ class Header extends React.Component {
                   </Grid>
 
                   <Grid item xs={1} /> 
-                  {/* <img className={'logo'} src="logo.PNG" alt="lotte-on logo"></img> */}
+                  
                    <Button style={{ fontSize: "40px" }} color="secondary">
                     LOTTE ON
                   </Button>
@@ -117,7 +117,8 @@ class Header extends React.Component {
                     margin="normal"
                     variant="outlined"
                   ></TextField>
-                   <IconButton className = {classes.iconButton1}> 
+                  <div style={{marginLeft : "150px"}}>
+                  <IconButton className = {classes.iconButton1}> 
                     <InsertCommentOutlinedIcon />
                   </IconButton>
                   <IconButton className={classes.iconButton1}>
@@ -136,6 +137,7 @@ class Header extends React.Component {
                   >
                     <LocalGroceryStoreIcon />
                   </IconButton>
+                  </div>
 
                   <Grid container spacing={7}>
                     <Grid item xs={8} />
